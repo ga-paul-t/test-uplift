@@ -17,3 +17,6 @@ blocks:
               curl https://raw.githubusercontent.com/gembaadvantage/uplift/master/scripts/install > install
               chmod 700 install
               sudo ./install
+            - uplift release
+          run:
+            when: "branch = 'main'"
