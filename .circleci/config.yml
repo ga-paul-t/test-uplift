@@ -1,0 +1,23 @@
+# .circleci/config.yml
+
+version: 2.1
+workflows:
+  main:
+    jobs:
+      - release:
+          filters:
+            branches:
+              # Only trigger on the main branch
+              only: main
+jobs:
+  release:
+    docker:
+      # Can use whatever base image you like
+      - image: cimg/go:1.18
+    steps:
+      - checkout
+      - run: |
+          curl https://raw.githubusercontent.com/gembaadvantage/uplift/master/scripts/install > install
+          chmod 700 install
+          ./install
+      - run: uplift release
