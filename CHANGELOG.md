@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [0.4.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.4.0) - 2022-04-17
+
+- [`7d3afef`](https://github.com/ga-paul-t/test-uplift/commit/7d3afefa14aa8709956478af688992f1efee5a3f) feat: this is a new feature
+- [`1704316`](https://github.com/ga-paul-t/test-uplift/commit/17043165aeb91b4fa655d890d51561d6d8ec8552) Merge branch main of https://github.com/ga-paul-t/test-uplift
+- [`59adfff`](https://github.com/ga-paul-t/test-uplift/commit/59adfffc17b5412f617715802fb1f7d0b0e7bd46) feat: use dedicated uplift token
+
 ## [0.3.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.3.0) - 2022-04-17
 
 - [`a556e07`](https://github.com/ga-paul-t/test-uplift/commit/a556e076a8f28dea331891c0b56716220d31a90c) feat: this is a new feature
