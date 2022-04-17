@@ -1,0 +1,9 @@
+task:
+  name: Release
+  only_if: $BRANCH == "main"
+  # depends_on:
+  #   - Test
+  #   - Lint
+  container:
+    image: gembaadvantage/uplift
+  release_script: release
