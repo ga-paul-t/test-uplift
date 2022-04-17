@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [0.5.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.5.0) - 2022-04-17
+
+- [`3d01e08`](https://github.com/ga-paul-t/test-uplift/commit/3d01e08e072c5b85e12e960d4746967b66b1cf91) feat: this is a new feature
+- [`4dff866`](https://github.com/ga-paul-t/test-uplift/commit/4dff866f398e3b31c488004fef30aa8c4c389f42) Merge pull request #1 from ga-paul-t/setup-semaphore
+- [`4b2bdfd`](https://github.com/ga-paul-t/test-uplift/commit/4b2bdfd958401c8959f64b305fb061347d11b4a9) ci: dedicated uplift pipeline
+- [`7a01cfc`](https://github.com/ga-paul-t/test-uplift/commit/7a01cfcf1961473f6b57364ca74c27b1440c6464) ci: conditionally run on main branch only
+- [`95b9983`](https://github.com/ga-paul-t/test-uplift/commit/95b9983a6e11588908cbfe061af7f53634ff1fa9) ci: grant sudo access to install
+- [`d921180`](https://github.com/ga-paul-t/test-uplift/commit/d92118016bc201c9e5658bacfe619ebc00fb875b) ci: download uplift
+- [`ff75981`](https://github.com/ga-paul-t/test-uplift/commit/ff759810927f0d3ae85e805f5d46daffb5999ab3) ci: changes to pipeline
+- [`34a8e5d`](https://github.com/ga-paul-t/test-uplift/commit/34a8e5d5b40ec50533faf08529b409c400e74565) Use Single job starter workflow
+
 ## [0.4.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.4.0) - 2022-04-17
 
 - [`7d3afef`](https://github.com/ga-paul-t/test-uplift/commit/7d3afefa14aa8709956478af688992f1efee5a3f) feat: this is a new feature
