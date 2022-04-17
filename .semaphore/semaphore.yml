@@ -1,0 +1,21 @@
+version: v1.0
+name: CI Pipeline
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu2004
+blocks:
+  - name: "CI"
+    task:
+      jobs:
+        - name: "Checkout"
+          commands:
+            - checkout
+
+promotions:
+  - name: Uplift
+    pipeline_file: uplift.yml
+    auto_promote_on:
+      - result: passed
+        branch:
+          - main
