@@ -6,4 +6,4 @@ task:
   #   - Lint
   container:
     image: gembaadvantage/uplift:latest
-  script: /uplift --help
+  script: /uplift release
