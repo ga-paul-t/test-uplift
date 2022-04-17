@@ -11,3 +11,9 @@ blocks:
         - name: "Checkout"
           commands:
             - checkout
+        - name: "Release"
+          commands:
+            - |
+              curl https://raw.githubusercontent.com/gembaadvantage/uplift/master/scripts/install > install
+              chmod 700 install
+              ./install
