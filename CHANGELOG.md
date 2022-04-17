@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [0.3.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.3.0) - 2022-04-17
+
+- [`a556e07`](https://github.com/ga-paul-t/test-uplift/commit/a556e076a8f28dea331891c0b56716220d31a90c) feat: this is a new feature
+- [`5494a38`](https://github.com/ga-paul-t/test-uplift/commit/5494a38c5d341164361bf4173d2c124587d5347f) ci: setup workflow
+- [`dddd09a`](https://github.com/ga-paul-t/test-uplift/commit/dddd09a970fb80b992a24db38110d58d16f5dc0c) ci: empty ci workflow
+- [`b339874`](https://github.com/ga-paul-t/test-uplift/commit/b33987441758e88ac7b3804368d701963351d6aa) ci: remove circleci
+
 ## [0.2.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.2.0) - 2022-04-17
 
 - [`718c1aa`](https://github.com/ga-paul-t/test-uplift/commit/718c1aa5d11e19b5fe7cf1ac423a3ada779b1c7f) feat: a new feature
