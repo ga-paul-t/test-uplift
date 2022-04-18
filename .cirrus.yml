@@ -9,7 +9,7 @@ task:
   before_script:
     - CLONE_URL=${CIRRUS_REPO_CLONE_URL#"https://"}
     - git remote set-url origin "https://${GITHUB_TOKEN}@${CLONE_URL}"
-    - git remote -v
+    - git for-each-ref "refs/tags/*.*.*" --sort=-v:creatordate
   release_script:
     - uplift --help
   environment:
