@@ -6,6 +6,65 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## 0.1.0 - 2022-04-18
+
+- `0b8bac8` feat: this is a new feature
+- `4e7493f` ci: remove git ref statement
+- `5535642` ci: ensure all tags are fetched
+- `317c7e4` ci: is the clone as expected
+- `e70edf0` ci: find out why it is hanging
+- `cc9404d` ci(uplift): uplifted for version 0.7.0
+- `ac3b68c` feat: this is a new feature
+- `40aec63` ci: this isnt a release
+- `9fe3fcb` feat: this is a new feature
+- `9fe1afd` ci: try again with remote
+- `d3c85bb` feat: this is a new feature
+- `ec86cdd` ci: rewrite git remote origin url
+- `0bf05df` ci: strip prefix from clone url
+- `ab820f7` ci: add encrypted variable
+- `abc8cea` ci: drop custom path
+- `b0d9146` feat: this is a new feature
+- `20e7490` ci: trigger an uplift release
+- `913c433` ci: try this
+- `2018c26` ci: try this
+- `65e41fa` ci: try again
+- `5bfa18e` ci: try different command
+- `9528deb` feat: this is a new feature
+- `71d9dd1` ci: add cirrus yaml file
+- `d41b179` Merge branch main of https://github.com/ga-paul-t/test-uplift
+- `db3f044` ci: remove other ci integrations
+- `32f304c` ci(uplift): uplifted for version 0.6.0
+- `1c57673` feat: this is a new feature
+- `29e1181` Merge branch main of https://github.com/ga-paul-t/test-uplift
+- `3fc9463` feat: this is a new feature
+- `8a7f828` ci(uplift): uplifted for version 0.5.0
+- `3d01e08` feat: this is a new feature
+- `4dff866` Merge pull request #1 from ga-paul-t/setup-semaphore
+- `4b2bdfd` ci: dedicated uplift pipeline
+- `7a01cfc` ci: conditionally run on main branch only
+- `95b9983` ci: grant sudo access to install
+- `d921180` ci: download uplift
+- `ff75981` ci: changes to pipeline
+- `34a8e5d` Use Single job starter workflow
+- `b8d3fef` ci(uplift): uplifted for version 0.4.0
+- `7d3afef` feat: this is a new feature
+- `1704316` Merge branch main of https://github.com/ga-paul-t/test-uplift
+- `59adfff` feat: use dedicated uplift token
+- `4a1bffb` ci(uplift): uplifted for version 0.3.0
+- `a556e07` feat: this is a new feature
+- `5494a38` ci: setup workflow
+- `dddd09a` ci: empty ci workflow
+- `b339874` ci: remove circleci
+- `ed834cc` ci(uplift): uplifted for version 0.2.0
+- `718c1aa` feat: a new feature
+- `cf74376` ci: support pushing back to github
+- `24cf1a9` fix: this is a bug fix
+- `7f6518b` feat: this is a new feature
+- `f7b749c` ci: sudo permission when running script
+- `448aa91` ci: test circile ci config file
+- `b40a638` feat: this is a new feature
+- `41c12fe` initialise repository
+
 ## 0.7.0 - 2022-04-18
 
 - `ac3b68c` feat: this is a new feature
