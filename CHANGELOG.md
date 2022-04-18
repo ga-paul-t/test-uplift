@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## 0.10.0 - 2022-04-18
+
+- `4ea37d3` feat: this is a new feature
+- `ecb7a7d` ci: switch to using fetch-all tag
+
 ## 0.9.0 - 2022-04-18
 
 - `fbabbef` feat: this is a new feature
