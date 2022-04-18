@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## 0.8.0 - 2022-04-18
+
+- `486d85e` feat: this is a new feature
+- `8e2ce99` Merge branch main of https://github.com/ga-paul-t/test-uplift
+- `bff9ebe` ci: fetch all tags
+- `4ecf307` ci(uplift): uplifted for version 0.1.0
+- `0b8bac8` feat: this is a new feature
+- `4e7493f` ci: remove git ref statement
+- `5535642` ci: ensure all tags are fetched
+- `317c7e4` ci: is the clone as expected
+- `e70edf0` ci: find out why it is hanging
+
 ## 0.1.0 - 2022-04-18
 
 - `0b8bac8` feat: this is a new feature
