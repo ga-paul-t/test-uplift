@@ -2,7 +2,7 @@
 
 task:
   name: Release
-  only_if: $BRANCH == "main"
+  only_if: $BRANCH == "main" && $CIRRUS_TAG == ""
   # depends_on:
   container:
     image: gembaadvantage/uplift:latest
