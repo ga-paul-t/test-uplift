@@ -9,8 +9,7 @@ task:
   before_script:
     - CLONE_URL=${CIRRUS_REPO_CLONE_URL#"https://"}
     - git remote set-url origin "https://${GITHUB_TOKEN}@${CLONE_URL}"
-    - git fetch --all --tags
   release_script:
-    - uplift release
+    - uplift release --fetch-all
   environment:
     GITHUB_TOKEN: ENCRYPTED[!1497b201beb7fb1075827a5e47896cd2d82076bdba50a003b06be04333d9b17fb80475fccb8d7744dad71a55a4e2c293!]
