@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## 0.9.0 - 2022-04-18
+
+- `fbabbef` feat: this is a new feature
+- `1987649` Merge branch main of https://github.com/ga-paul-t/test-uplift
+- `fd489cf` ci: dont run on tag
+
 ## 0.8.0 - 2022-04-18
 
 - `486d85e` feat: this is a new feature
