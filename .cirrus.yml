@@ -4,7 +4,7 @@ task:
   name: Release
   only_if: $BRANCH == "main" && $CIRRUS_TAG == ""
   # depends_on:
-  arm_container:
+  container:
     image: gembaadvantage/uplift:latest
   before_script:
     - CLONE_URL=${CIRRUS_REPO_CLONE_URL#"https://"}
