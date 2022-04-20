@@ -12,6 +12,9 @@ before_install:
     chmod 700 install
     sudo ./install
 
+script:
+  - env
+
 deploy:
   - provider: script
     skip_cleanup: true
