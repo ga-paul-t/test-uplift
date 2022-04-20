@@ -6,7 +6,7 @@ language: go
 git:
   depth: false
 
-script:
+before_install:
   - |
     curl https://raw.githubusercontent.com/gembaadvantage/uplift/master/scripts/install > install
     chmod 700 install
