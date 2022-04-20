@@ -13,8 +13,8 @@ before_install:
     sudo ./install
 
 script:
-  - git branch -q
   - git remote set-url origin https://${GH_UPLIFT}@github.com/${TRAVIS_REPO_SLUG}.git
+  - git checkout $TRAVIS_BRANCH
 
 deploy:
   - provider: script
