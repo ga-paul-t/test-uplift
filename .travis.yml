@@ -20,7 +20,7 @@ script:
 deploy:
   - provider: script
     skip_cleanup: true
-    script: uplift release --fetch-all
+    script: uplift release
     on:
       branch: main
       condition: $TRAVIS_OS_NAME = linux
