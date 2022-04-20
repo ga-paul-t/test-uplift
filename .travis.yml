@@ -5,9 +5,10 @@ git:
   depth: false
 
 script:
-  - curl https://raw.githubusercontent.com/gembaadvantage/uplift/master/scripts/install > install
-  - chmod 700 install
-  - ./install
+  - |
+    curl https://raw.githubusercontent.com/gembaadvantage/uplift/master/scripts/install > install
+    chmod 700 install
+    sudo ./install
 
 deploy:
   - provider: script
