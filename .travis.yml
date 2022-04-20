@@ -1,4 +1,6 @@
 # .travis.yml
+
+# Setup the pipeline based on your chosen language
 language: go
 
 git:
