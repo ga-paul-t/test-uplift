@@ -6,6 +6,30 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [0.10.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.10.0) - 2022-04-20
+
+- [`b3d592f`](https://github.com/ga-paul-t/test-uplift/commit/b3d592f5cd2ce7695ca5803f6624b59336fc7a62) feat: here we go
+- [`7e85b83`](https://github.com/ga-paul-t/test-uplift/commit/7e85b8384dbe8348a0859579638f970e34d893f6) ci: fix detached head
+- [`94672f9`](https://github.com/ga-paul-t/test-uplift/commit/94672f929f5c00141e7ff6f852451a2093b13a1a) ci: blah
+- [`3ed6304`](https://github.com/ga-paul-t/test-uplift/commit/3ed630401f88601a595cb3ec5904bf44ef9343a1) ci: print current branch
+- [`b3a9a89`](https://github.com/ga-paul-t/test-uplift/commit/b3a9a89a5d8308edabb17a70419d1b69bb997c28) feat: this is a new feature
+- [`c3aa3d2`](https://github.com/ga-paul-t/test-uplift/commit/c3aa3d2cc7a933f75a6941837ba5b7791014042a) ci: try setting the origin on the repo
+- [`095070a`](https://github.com/ga-paul-t/test-uplift/commit/095070abab53630e95daad492c36477365a8009e) ci: get existing remote
+- [`1de90fa`](https://github.com/ga-paul-t/test-uplift/commit/1de90fa6e70e3f57fdb9f78283a7a13aa7436d0b) ci: print environment variables
+- [`f5b7d43`](https://github.com/ga-paul-t/test-uplift/commit/f5b7d433742db54588f0c672254177e6926982e9) ci: encrypted variable
+- [`58ac5f5`](https://github.com/ga-paul-t/test-uplift/commit/58ac5f53dccfbb4743fac2ef47159bbd4061ef67) ci: move uplift installation
+- [`332cc80`](https://github.com/ga-paul-t/test-uplift/commit/332cc8046bf839ca70681e28dfae0f2dbe0c4992) feat: this is a new feature
+- [`588a7b5`](https://github.com/ga-paul-t/test-uplift/commit/588a7b5d018ce403ca7d6412971a13a3021ab87d) ci: try this instead
+- [`eb92bdc`](https://github.com/ga-paul-t/test-uplift/commit/eb92bdca351c8bf2505c06ba421c6e72c605d60c) ci: try using travis
+- [`2165970`](https://github.com/ga-paul-t/test-uplift/commit/216597084a2b06cabc9563616af2aaa1e14818f3) ci: remove cirrus yaml
+- [`705e1cc`](https://github.com/ga-paul-t/test-uplift/commit/705e1ccfaa58ae7fb206724efd0a6fd93dcee1b7) ci: switch back to amd64
+- [`656bbb7`](https://github.com/ga-paul-t/test-uplift/commit/656bbb7dc36271a644b931ec0d5b7f765cd76420) ci: print architecture
+- [`341998f`](https://github.com/ga-paul-t/test-uplift/commit/341998fd30c6f12e31637c9423dd24afb0682c3a) Merge branch main of https://github.com/ga-paul-t/test-uplift
+- [`dfb5fdd`](https://github.com/ga-paul-t/test-uplift/commit/dfb5fdda8d08bf7f412805a2e546e99bc4a8fac8) ci: switch to using arm container
+- [`82d3cb9`](https://github.com/ga-paul-t/test-uplift/commit/82d3cb95b73e338249fbb2099cb01d1fc9777de7) ci(uplift): uplifted for version 0.10.0
+- [`4ea37d3`](https://github.com/ga-paul-t/test-uplift/commit/4ea37d3eaa8fb8142ee3b146d0d744670a992780) feat: this is a new feature
+- [`ecb7a7d`](https://github.com/ga-paul-t/test-uplift/commit/ecb7a7dc0201f4b6e00728c6148e4354511047d1) ci: switch to using fetch-all tag
+
 ## 0.10.0 - 2022-04-18
 
 - `4ea37d3` feat: this is a new feature
