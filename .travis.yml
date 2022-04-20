@@ -1,0 +1,18 @@
+# .travis.yml
+language: go
+
+git:
+  depth: false
+
+script:
+  - curl https://raw.githubusercontent.com/gembaadvantage/uplift/master/scripts/install > install
+  - chmod 700 install
+  - ./install
+
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: uplift release
+    on:
+      branch: main
+      condition: $TRAVIS_OS_NAME = linux
