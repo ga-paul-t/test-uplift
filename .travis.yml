@@ -15,6 +15,7 @@ before_install:
 script:
   - git remote set-url origin https://${GH_UPLIFT}@github.com/${TRAVIS_REPO_SLUG}.git
   - git checkout $TRAVIS_BRANCH
+  - git for-each-ref
 
 deploy:
   - provider: script
