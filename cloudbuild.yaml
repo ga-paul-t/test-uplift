@@ -4,4 +4,5 @@ steps:
     args: ["fetch", "--unshallow"]
 
   - name: gembaadvantage/uplift
-    args: ["release"]
+    entrypoint: /bin/sh
+    args: ["-c", "git remote -v"]
