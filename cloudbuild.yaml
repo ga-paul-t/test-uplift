@@ -5,4 +5,4 @@ steps:
 
   - name: gembaadvantage/uplift
     entrypoint: /bin/sh
-    args: ["-c", "git remote -v"]
+    args: ["-c", "env"]
