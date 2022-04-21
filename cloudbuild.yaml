@@ -3,6 +3,10 @@ steps:
   - name: gcr.io/cloud-builders/git
     args: ["fetch", "--unshallow"]
 
+  - name: gcr.io/cloud-builders/git
+    entrypoint: /bin/sh
+    args: ["env"]
+
   - name: gembaadvantage/uplift
     entrypoint: /bin/sh
     args: ["-c", "env"]
