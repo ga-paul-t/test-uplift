@@ -1,8 +1,7 @@
 steps:
+  # Ensure clone contains required build history
   - name: gcr.io/cloud-builders/git
     args: ["fetch", "--unshallow"]
 
   - name: gembaadvantage/uplift
-    # dir: gopath/src/github.com
-    # env: ["GOPATH=/workspace/gopath"]
     args: ["release"]
