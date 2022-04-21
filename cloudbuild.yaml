@@ -1,0 +1,9 @@
+steps:
+  - name: gcr.io/cloud-builders/git
+    args: ["fetch", "--unshallow"]
+
+  - name: gembaadvantage/uplift
+    entrypoint: /bin/sh
+    # dir: gopath/src/github.com
+    # env: ["GOPATH=/workspace/gopath"]
+    args: ["uplift release"]
