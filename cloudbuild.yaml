@@ -5,10 +5,4 @@ steps:
 
   - name: gembaadvantage/uplift
     entrypoint: /bin/sh
-    args: ["-c", "git checkout $BRANCH && uplift release"]
-    env:
-      - "BUILD=$BUILD_ID"
-      - "PROJECT_ID=$PROJECT_ID"
-      - "PROJECT_NUMBER=$PROJECT_NUMBER"
-      - "REV=$REVISION_ID"
-      - "BRANCH=$BRANCH_NAME"
+    args: ["-c", "git checkout $BRANCH_NAME && uplift release"]
