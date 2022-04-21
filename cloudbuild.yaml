@@ -3,10 +3,12 @@ steps:
   - name: gcr.io/cloud-builders/git
     args: ["fetch", "--unshallow"]
 
-  - name: gcr.io/cloud-builders/git
-    entrypoint: /bin/sh
-    args: ["env"]
-
   - name: gembaadvantage/uplift
     entrypoint: /bin/sh
     args: ["-c", "env"]
+    env:
+      - "BUILD=$BUILD_ID"
+      - "PROJECT_ID=$PROJECT_ID"
+      - "PROJECT_NUMBER=$PROJECT_NUMBER"
+      - "REV=$REVISION_ID"
+      - "BRANCH=$BRANCH_NAME"
