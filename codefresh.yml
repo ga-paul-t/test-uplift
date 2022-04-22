@@ -14,7 +14,8 @@ steps:
     title: "Configure Git"
     image: alpine/git:latest
     commands:
-      - git remote set-url origin "https://${GH_UPLIFT}@${CF_REPO_OWNER}/${CF_REPO_NAME}"
+      - echo ${{CF_COMMIT_URL}}
+      - git remote set-url origin "https://${GH_UPLIFT}@github.com/${CF_REPO_OWNER}/${CF_REPO_NAME}"
       - git remote -v
     stage: prerelease
   uplift:
