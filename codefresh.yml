@@ -1,7 +1,6 @@
 version: "1.0"
 stages:
   - prepare
-  - prerelease
   - release
 steps:
   main_clone:
@@ -10,17 +9,12 @@ steps:
     repo: "${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}"
     revision: "${{CF_BRANCH}}"
     stage: prepare
-  configure_git:
-    title: "Configure Git"
-    image: alpine/git:latest
-    commands:
-      - REMOTE_URL=$(git config --get remote.origin.url)
-      - CLONE_URL=${REMOTE_URL#"https://"}
-      - git remote set-url origin "https://${GH_UPLIFT}@${CLONE_URL}"
-    stage: prerelease
   uplift:
     title: "Release"
     stage: release
     image: "gembaadvantage/uplift"
     commands:
+      - REMOTE_URL=$(git config --get remote.origin.url)
+      - CLONE_URL=${REMOTE_URL#"https://"}
+      - git remote set-url origin "https://${GH_UPLIFT}@${CLONE_URL}"
       - uplift release
