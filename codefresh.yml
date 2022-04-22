@@ -5,8 +5,8 @@ stages:
   - release
 steps:
   main_clone:
-    title: "Checkout"
-    image: git-clone
+    title: "Cloning main repository..."
+    type: git-clone
     repo: "${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}"
     revision: "${{CF_REVISION}}"
     stage: prepare
