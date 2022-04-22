@@ -1,0 +1,17 @@
+version: "1.0"
+stages:
+  - prepare
+  - release
+steps:
+  checkout:
+    title: "Checkout"
+    type: git-clone
+    repo: "${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}"
+    revision: "${{CF_REVISION}}"
+    stage: prepare
+  uplift:
+    title: Release
+    stage: release
+    image: "gembaadvantage/uplift"
+    commands:
+      - uplift release
