@@ -6,6 +6,35 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [0.12.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.12.0) - 2022-04-22
+
+- [`ac50726`](https://github.com/ga-paul-t/test-uplift/commit/ac50726eb6591d362cfad5f85f679fd3e625fd84) feat: this is a new feature
+- [`2af448a`](https://github.com/ga-paul-t/test-uplift/commit/2af448add19ec86098d9798f8c82e5404f895621) ci: test that branch can be checked out
+- [`5856a2f`](https://github.com/ga-paul-t/test-uplift/commit/5856a2fd75f54c1ff99199c903eb658a28eebc6c) feat: this is a new feature
+- [`6ba443a`](https://github.com/ga-paul-t/test-uplift/commit/6ba443a5da9bb4ee7b58bb8f4918b8933b6d955a) ci: final tweak
+- [`3a198c9`](https://github.com/ga-paul-t/test-uplift/commit/3a198c9cece94bd5ef37f3df4ea3396c85a716b5) ci: now try this
+- [`95c9750`](https://github.com/ga-paul-t/test-uplift/commit/95c9750a485bcad2225bbdc9698bcdaaf9a99916) ci: try this
+- [`c974299`](https://github.com/ga-paul-t/test-uplift/commit/c974299d9dd1b6b4050c2ef7f65ba947980011e2) ci: try this
+- [`10e44fc`](https://github.com/ga-paul-t/test-uplift/commit/10e44fc11e494bb24bdcc5660ef0c7257baddcc0) ci: try this
+- [`dcbfbf7`](https://github.com/ga-paul-t/test-uplift/commit/dcbfbf70209cbb1b493019d17ca938a9465e8532) ci: try again
+- [`56b49d3`](https://github.com/ga-paul-t/test-uplift/commit/56b49d36b0de830cda97e7e7780215914f796a2d) ci: use git-clone again
+- [`4cc798f`](https://github.com/ga-paul-t/test-uplift/commit/4cc798f405c25026cfd84f0a031713b09cb64ea7) ci: try this with environment variables
+- [`bef93d7`](https://github.com/ga-paul-t/test-uplift/commit/bef93d74ef716fecfacdf9fbd6470b45273f48b7) ci: check if git remote can be set
+- [`9701aa9`](https://github.com/ga-paul-t/test-uplift/commit/9701aa9b35cdb5833b3eb9aa52c6053526931fb4) feat: this is a new feature
+- [`691d336`](https://github.com/ga-paul-t/test-uplift/commit/691d3360eb738c9da916df9cb7811c93a5bbf813) ci: important to use main_clone
+- [`ebc97af`](https://github.com/ga-paul-t/test-uplift/commit/ebc97af40e766364f868122a20b40d98cba0bc9f) ci: rename file
+- [`776a8d5`](https://github.com/ga-paul-t/test-uplift/commit/776a8d53abe443fde4d11f9318fadcca0d71d2da) ci: add codefresh yaml
+- [`ca1585e`](https://github.com/ga-paul-t/test-uplift/commit/ca1585ef9acc00558160cb45672fc18697eb3036) ci: try this
+- [`2ecfb82`](https://github.com/ga-paul-t/test-uplift/commit/2ecfb82088b4ccf16f4f0c362deadef1087562cf) ci: reattach head
+- [`c7de491`](https://github.com/ga-paul-t/test-uplift/commit/c7de4914cb128cc4bff7804616bedf4f8610cf2c) ci: try this
+- [`c7d3c26`](https://github.com/ga-paul-t/test-uplift/commit/c7d3c264916f3833f7eac717b7ba9a193da64110) ci: try this
+- [`4747326`](https://github.com/ga-paul-t/test-uplift/commit/474732679acad0533618cea5bbabd21f38b6d87c) ci: print env variables
+- [`6bda772`](https://github.com/ga-paul-t/test-uplift/commit/6bda772a45879ff706d46f4b1df16b923b087ac6) ci: test setting up remote in container
+- [`ba830ea`](https://github.com/ga-paul-t/test-uplift/commit/ba830ea59204a1ec1d4981e54a6a540559860e25) feat: a brand new feature
+- [`56f86ef`](https://github.com/ga-paul-t/test-uplift/commit/56f86efe54dce4f2a66d28e4f9b429f24d6e239d) ci: try again
+- [`4b749c8`](https://github.com/ga-paul-t/test-uplift/commit/4b749c88f263d966468cbaed8799cf5d9ca61223) Merge branch main of https://github.com/ga-paul-t/test-uplift
+- [`3c5a7f1`](https://github.com/ga-paul-t/test-uplift/commit/3c5a7f1ef1701fe4447e09117b11a0cca3c24000) ci: try using google cloudbuild
+
 ## [0.11.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.11.0) - 2022-04-21
 
 - [`bf39d72`](https://github.com/ga-paul-t/test-uplift/commit/bf39d72af101397fd9353ed3e322c3406f4b1bfb) feat: this is a new feature
