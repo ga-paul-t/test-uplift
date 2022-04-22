@@ -1,14 +1,21 @@
 version: "1.0"
 stages:
   - prepare
+  - prerelease
   - release
 steps:
   main_clone:
     title: "Checkout"
-    type: git-clone
+    image: alpine/git:latest
     repo: "${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}"
     revision: "${{CF_REVISION}}"
     stage: prepare
+  configure_git:
+    title: "Configure Git"
+    image: alpine/git:latest
+    commands:
+      - git remote set-url origin "https://${{GH_UPLIFT}}@{{CF_REPO_OWNER}}/${{CF_REPO_NAME}}"
+      - git remote -v
   uplift:
     title: "Release"
     stage: release
