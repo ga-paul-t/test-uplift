@@ -14,8 +14,9 @@ steps:
     title: "Configure Git"
     image: alpine/git:latest
     commands:
-      - git config --get remote.origin.url
-      - git remote set-url origin "https://${GH_UPLIFT}@github.com/${CF_REPO_OWNER}/${CF_REPO_NAME}"
+      - REMOTE_URL=$(git config --get remote.origin.url)
+      - CLONE_URL=${REMOTE_URL#"https://"}
+      - git remote set-url origin "https://${GH_UPLIFT}@${CLONE_URL}"
       - git remote -v
     stage: prerelease
   uplift:
