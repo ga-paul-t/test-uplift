@@ -1,3 +1,2 @@
 git:
   ignoreDetached: true
-  ignoreShallow: true
