@@ -1,7 +1,3 @@
-hooks:
-  before:
-  after:
-
 git:
   ignoreDetached: true
   ignoreShallow: true
