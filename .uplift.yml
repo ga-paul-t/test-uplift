@@ -1,2 +1,2 @@
 git:
-  ignoreDetached: true
+  ignoreDetached: false
