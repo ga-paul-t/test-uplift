@@ -10,6 +10,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - [`eb23985`](https://github.com/ga-paul-t/test-uplift/commit/eb23985c017647cee5cfd59a9e221486cef1de92) feat: this is a new feature
 
+## [0.16.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.16.0) - 2022-04-22
+
+- [`eb23985`](https://github.com/ga-paul-t/test-uplift/commit/eb23985c017647cee5cfd59a9e221486cef1de92) feat: this is a new feature
+
 ## [0.15.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.15.0) - 2022-04-22
 
 - [`f0ecd95`](https://github.com/ga-paul-t/test-uplift/commit/f0ecd9556e08c560465b15480e01b14ad3882495) feat: this is a new feature
