@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [0.18.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.18.0) - 2022-05-01
+
+- [`34a667f`](https://github.com/ga-paul-t/test-uplift/commit/34a667ffbcddd50fb401e863a9dee6b3fb5af0a7) feat: this is a new feature
+
 ## [0.17.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.17.0) - 2022-05-01
 
 - [`59f45ba`](https://github.com/ga-paul-t/test-uplift/commit/59f45ba199db90578ebda57237c870bd88fc47c8) feat: another exciting feature
