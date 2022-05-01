@@ -6,6 +6,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [0.17.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.17.0) - 2022-05-01
+
+- [`59f45ba`](https://github.com/ga-paul-t/test-uplift/commit/59f45ba199db90578ebda57237c870bd88fc47c8) feat: another exciting feature
+- [`b293d15`](https://github.com/ga-paul-t/test-uplift/commit/b293d15248f4e306e92ca454cd1b525c964efd80) ci(uplift): uplifted for version 0.16.0
+- [`01b140f`](https://github.com/ga-paul-t/test-uplift/commit/01b140fafd0a6b08ca80665fb2be3c7781a48231) ci(uplift): uplifted for version 0.16.0
+- [`9cc22ac`](https://github.com/ga-paul-t/test-uplift/commit/9cc22ac7b366e704e5f92ac4cdba251140297874) ci: remove config
+- [`3f5f532`](https://github.com/ga-paul-t/test-uplift/commit/3f5f5323c67e59a5e12851efe6af6fdd5ee4df16) ci(uplift): uplifted for version 0.16.0
+- [`17b5a66`](https://github.com/ga-paul-t/test-uplift/commit/17b5a66f302227cea0e6e4a20f97c1b456a535db) ci: shallow clone config
+- [`504b3fa`](https://github.com/ga-paul-t/test-uplift/commit/504b3fa4008d66bfaeb6d4b92bc332153caf8a77) feat: this is a new feature
+- [`eed519f`](https://github.com/ga-paul-t/test-uplift/commit/eed519f2e4e1c4255ed96b219c6283bdf1c5ebf5) ci: blah
+- [`c3ab68f`](https://github.com/ga-paul-t/test-uplift/commit/c3ab68f5e17a1dce6d3466e0b34baaa03dd47d79) feat: this is a new feature
+- [`225fafe`](https://github.com/ga-paul-t/test-uplift/commit/225fafe5b45b9248a4efb42bbf52cb373a27da65) feat: this is a new feature
+- [`c6fc2cb`](https://github.com/ga-paul-t/test-uplift/commit/c6fc2cb4a540e06a00fad490286e32487db15fd7) ci: remove shallow flag
+- [`95962de`](https://github.com/ga-paul-t/test-uplift/commit/95962de82ae33e8242a7dbba45b15b4873435f83) ci: just another change
+- [`fb44b5d`](https://github.com/ga-paul-t/test-uplift/commit/fb44b5d1558cf701c4de8c04bdaa7e0a0070bb29) chore: add gitignore file
+- [`2a8d1b4`](https://github.com/ga-paul-t/test-uplift/commit/2a8d1b497abc455ed8a8f2a89108dfb9f35e0b1d) ci: changes to config
+- [`5374e2b`](https://github.com/ga-paul-t/test-uplift/commit/5374e2b603a01c2f205039076ae247e3b823e814) Merge branch main of https://github.com/ga-paul-t/test-uplift
+- [`e848d1c`](https://github.com/ga-paul-t/test-uplift/commit/e848d1cc936f049655c237fb0b8ec5ebd939c387) ci: latest
+
 ## [0.16.0](https://github.com/ga-paul-t/test-uplift/releases/tag/0.16.0) - 2022-04-28
 
 - [`9cc22ac`](https://github.com/ga-paul-t/test-uplift/commit/9cc22ac7b366e704e5f92ac4cdba251140297874) ci: remove config
